@@ -1,0 +1,13 @@
+.info {
+    display: flex;
+    flex-wrap: wrap;
+}
+.image {
+    width: 100px;
+    height: auto;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 600;
+}

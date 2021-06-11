@@ -1,0 +1,9 @@
+export { default as BandCard } from './BandCard';
+export { default as BandInfo } from './BandInfo';
+export { default as Event } from './Event';
+export { default as EventDetails } from './EventDetails';
+export { default as EventsList } from './EventsList';
+export { default as Favourites } from './Favourites';
+export { default as PageLayout } from './PageLayout';
+export { default as Search } from './Search';
+export { default as Star } from './Icons/Star';

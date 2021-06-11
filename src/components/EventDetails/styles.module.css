@@ -1,0 +1,20 @@
+.infoBlock {
+  padding-bottom: 20px;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 10px 0;
+}
+
+.date {
+  font-size: 20px;
+  font-weight: 600;
+}
+.text {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 300;
+}

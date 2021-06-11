@@ -1,0 +1,14 @@
+.list {
+  overflow-y: auto;
+}
+.showMore {
+  width: 100%;
+  padding: 8px 0;
+  text-align: center;
+  border: none;
+  border-radius: 75px;
+  font-weight: bold;
+  font-size: 14px;
+  background: linear-gradient(90deg,#44c9cc 0%,#39c 100%);
+  color: #fff;
+}
