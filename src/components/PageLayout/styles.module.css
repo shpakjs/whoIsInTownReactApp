@@ -14,3 +14,10 @@
 .favourites {
   width: 20%;
 }
+
+@media screen and (max-width: 768px) {
+  .band,.event,.favourites {
+    width: 100%;
+    padding: 20px;
+  }
+}
