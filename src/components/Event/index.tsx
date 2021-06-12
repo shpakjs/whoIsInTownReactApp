@@ -21,7 +21,7 @@ const Event: FC<IProps> = ({data, favourite, onEventClick, onStarClick}) => {
     }
     return <div onClick={handleClick} className={styles.event}>
         {favourite && <div className={styles.header}>
-            <div className={styles.artist}>{data.lineup}</div>
+                <div className={styles.artist}>{data.lineup}</div>
                 <div onClick={handleStarClick}><Star filled /></div>
             </div>
         }

@@ -1,7 +1,7 @@
 import { FC, useContext } from 'react';
 
 import Star from 'components/Icons/Star';
-import { selectEvent, updateFavourite } from 'context/actions';
+import { updateFavourite } from 'context/actions';
 import { AppContext } from 'context/AppContext';
 import { formatDate } from 'utils';
 import styles from './styles.module.css';
@@ -19,18 +19,18 @@ const EventDetails: FC = () => {
 
     return <div className={styles.card}>
     {
-        selectEvent && (
+        selectedEvent && (
         <>
             <div className={styles.infoBlock}>
                 <div onClick={handleStarClick} className={styles.header}>
                 <div className={styles.date}>{formatDate(datetime)}</div>
                     <Star filled={isFavourite} width="30px" height="30px" />
                 </div>
-                <p className={styles.text}>{description}</p>
-            </div>
-            <div className={styles.infoBlock}>
                 <div>{venue.name}</div>
                 <div>{`${venue.city}, ${venue.country}`}</div>
+            </div>
+            <div className={styles.infoBlock}>
+                <p className={styles.text}>{description}</p>
             </div>
             <div className={styles.infoBlock}>
                 {offers.map(offer => <a href={offer.url}>{offer.type}</a>)}

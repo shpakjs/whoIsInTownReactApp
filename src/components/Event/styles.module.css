@@ -9,7 +9,6 @@
 }
 
 .date {
-
   width: min-content;
   margin-top: 5px;
   font-size: 12px;
@@ -32,6 +31,7 @@
   justify-content: space-between;
   align-content: flex-start;
 }
+
 .artist {
   font-size: 16px;
   font-weight: 600;

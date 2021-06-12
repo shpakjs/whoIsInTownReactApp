@@ -20,7 +20,7 @@ const Search: FC = () => {
             type="submit" 
             disabled={!searchVal}
             className={styles.button}
-            >
+        >
             SEARCH
         </button>
     </form>;

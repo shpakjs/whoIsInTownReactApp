@@ -7,14 +7,14 @@ import styles from './styles.module.css';
 interface IProps {
     artist: IArtist;
 }
-const BandCard: FC<IProps> = ({ artist }) => {
-    return <div>
+const BandCard: FC<IProps> = ({ artist }) => (
+    <div>
         <BandInfo {...artist} />
         { artist.events?.length > 0 
             ? <EventsList events={artist.events} /> 
             : <span className={styles.emptyList}> No events found :( </span>
         }
-    </div>;
-}
+    </div>
+);
 
 export default BandCard;
