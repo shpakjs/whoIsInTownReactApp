@@ -2,7 +2,7 @@
   "name": "who-is-in-town-react-app",
   "version": "0.1.0",
   "private": false,
-  "homepage": "http://shpakjs.github.io/whoIsInTown",
+  "homepage": "http://shpakjs.github.io/whoIsInTownReactApp",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
