@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, useEffect } from 'react';
 
 import useSearch from './useSearch';
 import styles from './styles.module.css';
